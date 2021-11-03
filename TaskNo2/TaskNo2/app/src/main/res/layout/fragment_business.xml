@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/business_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@+id/main_btns"
+    android:layout_marginHorizontal="0dp"
+    android:layout_marginTop="0dp"
+    android:background="@color/bg2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:id="@+id/refresh_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/refresh_24dp"/>
+    <com.victor.loading.rotate.RotateLoading
+        android:id="@+id/refresh_rotateloading"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        app:loading_width="3dp"
+        app:loading_color="#ffffff"/>
+    <Button
+        android:id="@+id/thermometer"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/selector_thermometer"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:text="עסקים"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/font_btn"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="2dp">
+    </android.support.v7.widget.RecyclerView>
+
+    <com.victor.loading.rotate.RotateLoading
+        android:id="@+id/rotateloading"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        app:loading_width="5dp"
+        app:loading_color="#ffffff"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

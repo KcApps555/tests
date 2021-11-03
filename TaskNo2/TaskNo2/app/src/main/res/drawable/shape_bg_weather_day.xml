@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/bg_weather_day"
+        android:endColor="@color/bg_weather_day"/>
+    <corners
+        android:topRightRadius="10dp"
+        android:topLeftRadius="10dp"/>
+</shape>

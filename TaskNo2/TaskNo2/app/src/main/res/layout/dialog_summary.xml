@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/bg_dialog"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="כותרת"
+        android:textColor="@color/font_btn"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/title"
+        android:padding="10dp"
+        android:text="תוכן"
+        android:textColor="@color/gray"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/setting_btn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/text"
+        android:background="@drawable/select_setting_btn"
+        android:visibility="gone"/>
+</RelativeLayout>

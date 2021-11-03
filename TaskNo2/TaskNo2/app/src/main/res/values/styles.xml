@@ -1,0 +1,47 @@
+<resources>
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>-->
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Dialog">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="SummaryDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:background">@color/bg0</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColorPrimary">@color/font_btn</item>
+        <item name="android:positiveButtonText">@color/bg3</item>
+    </style>
+
+
+    <!--this is working for SWITCH BUTTON-->
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">#FFFFFF</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#B99B9B9B</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#DC000000</item>
+    </style>
+    <!--/////////////////////////////////-->
+
+
+</resources>

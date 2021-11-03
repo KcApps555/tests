@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#6BD5FF</color>
+    <color name="colorPrimaryLight">#94D3EAFF</color>
+    <color name="colorAccent">#A3FFFFFF</color>-->
+
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#6BD5FF</color>
+    <color name="colorPrimaryLight">#94D3EAFF</color>
+    <color name="colorAccent">#A3FFFFFF</color>
+    <color name="colorBg">#72E1E2E1</color>
+    <color name="main_bg">#6BD5FF</color>
+
+
+    <color name="link">#0563c1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#B4414141</color>
+    <color name="black">#000000</color>
+    <color name="green">#12BD00</color>
+    <color name="red">#B4D60101</color>
+
+    <color name="status_bg">#7EFFFFFF</color>
+
+    <color name="bg_dialog">#B780D7FF</color>
+
+
+    <color name="bg0">#4fc3f7</color>
+    <color name="bg1">#29b6f6</color>
+    <color name="bg2">#03a9f4</color>
+    <color name="bg3">#039be5</color>
+    <color name="font_btn">#D0FFFFFF</color>
+
+
+    <color name="enter_btn_font">#01579b</color>
+    <color name="enter_btn_bg">#81d4fa</color>
+    <color name="enter_btn_stroke">#0277bd</color>
+
+
+
+    <color name="bg_weather_night">#F82E4B7E</color>
+    <color name="bg_weather_behind">#2E4B7E</color>
+    <color name="font_weather_night">#F2FFFFFF</color>
+    <color name="font_refresh_weather_night">#F3B1B8C9</color>
+
+    <color name="bg_weather_day">#F82E4B7E</color>
+
+
+    <color name="white_opacity">#2AFFFFFF</color>
+
+
+</resources>

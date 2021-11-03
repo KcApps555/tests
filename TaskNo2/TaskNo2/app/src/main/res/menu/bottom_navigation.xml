@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_weather"
+        android:icon="@drawable/notif_weather_icon_24dp"
+        android:title="מזג אוויר"/>
+    <item
+        android:id="@+id/nav_general"
+        android:icon="@drawable/notif_news_icon_24dp"
+        android:title="כללי"/>
+    <item
+        android:id="@+id/nav_technology"
+        android:icon="@drawable/notif_news_icon_24dp"
+        android:title="טכנולוגיה"/>
+    <item
+        android:id="@+id/nav_business"
+        android:icon="@drawable/notif_news_icon_24dp"
+        android:title="עסקים"/>
+    <item
+        android:id="@+id/nav_reminder"
+        android:icon="@drawable/add_remind_24dp"
+        android:title="תזכורות"/>
+
+</menu>
